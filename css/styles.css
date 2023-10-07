@@ -1,0 +1,769 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1 h2 h3 h4 h5 h6 p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 50px;
+  background-color: brown;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+@font-face {
+  font-family: Baskerville-Regular;
+  src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+}
+nav .companyname {
+  font-size: 20px;
+  color: honeydew;
+  font-family: Baskerville-Italic;
+}
+@font-face {
+  font-family: Baskerville-Italic;
+  src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+}
+nav a {
+  color: honeydew;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.BreakfastNook {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(90, 90, 90, 0.5)), to(rgba(90, 90, 90, 0.5))), url(../images/BreakfastNook.jpg);
+  background-image: linear-gradient(to right, rgba(90, 90, 90, 0.5), rgba(90, 90, 90, 0.5)), url(../images/BreakfastNook.jpg);
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.BreakfastNook .callout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.BreakfastNook .callout .quote {
+  margin-top: 200px;
+  font-size: 70px;
+  font-family: Baskervile-Italic;
+  color: honeydew;
+}
+@font-face {
+  font-family: Baskervile-Italic;
+  src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+}
+
+.titleofcompany {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 60px;
+  font-family: Baskerville-Regular;
+  background-color: honeydew;
+  height: 100px;
+}
+@font-face {
+  font-family: Baskerville-Regular;
+  src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+}
+.titleofcompany .italics {
+  font-family: Baskerville-Italic;
+  color: brown;
+}
+@font-face {
+  font-family: Baskerville-Italic;
+  src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+}
+
+.containerhome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 500px;
+  background-color: honeydew;
+}
+.containerhome .leftpara {
+  height: 380px;
+  font-size: 20px;
+  font-family: Baskerville-Regular;
+  margin-top: 10px;
+  width: 900px;
+}
+.containerhome .leftpara .titleofpara {
+  font-size: 30px;
+  color: brown;
+}
+@font-face {
+  font-family: Baskerville-Italic;
+  src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+}
+@font-face {
+  font-family: Baskerville-Regular;
+  src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+}
+.containerhome .rightimage .Breakfast {
+  background-image: url(../images/Breakfast.jpg);
+  width: 350px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.containerhome2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 500px;
+  background-color: honeydew;
+}
+.containerhome2 .leftpara {
+  height: 380px;
+  font-size: 20px;
+  font-family: Baskerville-Regular;
+  margin-top: 10px;
+  width: 900px;
+}
+.containerhome2 .leftpara .titleofpara {
+  font-size: 30px;
+  color: brown;
+}
+@font-face {
+  font-family: Baskerville-Italic;
+  src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+}
+@font-face {
+  font-family: Baskerville-Regular;
+  src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+}
+.containerhome2 .rightimage .Sandwiches {
+  background-image: url(../images/Sandwiches.jpg);
+  width: 350px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.cateringservices {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(90, 90, 90, 0.5)), to(rgba(90, 90, 90, 0.5))), url(../images/cateringservices.jpg);
+  background-image: linear-gradient(to right, rgba(90, 90, 90, 0.5), rgba(90, 90, 90, 0.5)), url(../images/cateringservices.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+.cateringservices .callout2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.cateringservices .callout2 .cateringservicestitle {
+  margin-top: 130px;
+  font-size: 70px;
+  font-family: Baskervile-Italic;
+  color: honeydew;
+}
+@font-face {
+  font-family: Baskervile-Italic;
+  src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+}
+.cateringservices .callout2 .explorebutton {
+  padding: 5px 20px;
+  border-radius: 20px;
+  background-color: brown;
+  color: honeydew;
+  border: none;
+  font-family: Baskervile-Regular;
+  width: 220px;
+  height: 40px;
+  margin-right: 10px;
+  margin-top: 50px;
+  font-size: 23px;
+  text-align: center;
+}
+@font-face {
+  font-family: Baskervile-Regular;
+  src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+}
+
+.containerhome3 {
+  background-color: brown;
+  height: 500px;
+}
+.containerhome3 .titleofclient {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 30px;
+  color: honeydew;
+}
+.containerhome3 .nameone {
+  color: honeydew;
+  width: 200px;
+  margin-left: 20px;
+  font-size: 25px;
+  font-family: Baskervile-Regular;
+}
+@font-face {
+  font-family: Baskervile-Regular;
+  src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+}
+.containerhome3 .nameone .para1 {
+  color: black;
+  width: 1400px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: Baskervile-Italic;
+}
+@font-face {
+  font-family: Baskervile-Italic;
+  src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+}
+.containerhome3 .nametwo {
+  color: honeydew;
+  width: 300px;
+  margin-left: 20px;
+  font-size: 25px;
+  margin-top: 100px;
+  font-family: Baskervile-Regular;
+}
+@font-face {
+  font-family: Baskervile-Regular;
+  src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+}
+.containerhome3 .nametwo .para2 {
+  color: black;
+  width: 1400px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: Baskervile-Italic;
+}
+@font-face {
+  font-family: Baskervile-Italic;
+  src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+}
+.containerhome3 .namethree {
+  color: honeydew;
+  width: 200px;
+  margin-top: 80px;
+  font-size: 25px;
+  margin-left: 20px;
+  font-family: Baskervile-Regular;
+}
+@font-face {
+  font-family: Baskervile-Regular;
+  src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+}
+.containerhome3 .namethree .para3 {
+  color: black;
+  width: 1400px;
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: Baskervile-Italic;
+}
+@font-face {
+  font-family: Baskervile-Italic;
+  src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+}
+
+.footer {
+  height: 50px;
+  width: 100%;
+  background-color: brown;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.footer .copyrighttitle {
+  font-size: 25px;
+  color: honeydew;
+  font-family: Baskervile-Regular;
+}
+@font-face {
+  font-family: Baskervile-Regular;
+  src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+}
+.footer .copyright {
+  font-size: 25px;
+  color: honeydew;
+  font-family: Baskervile-Regular;
+}
+@font-face {
+  font-family: Baskervile-Regular;
+  src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+}
+
+.aboutimage .BreakfastNook {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(90, 90, 90, 0.5)), to(rgba(90, 90, 90, 0.5))), url(../images/BreakfastNook.jpg);
+  background-image: linear-gradient(to right, rgba(90, 90, 90, 0.5), rgba(90, 90, 90, 0.5)), url(../images/BreakfastNook.jpg);
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboutimage .BreakfastNook .callout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.aboutimage .BreakfastNook .callout .quote {
+  margin-top: 200px;
+  font-size: 70px;
+  font-family: Baskervile-Regular;
+  color: honeydew;
+}
+.aboutimage .BreakfastNook .callout .quote .italics2 {
+  font-family: Baskervile-Italic;
+  font-size: 70px;
+}
+@font-face {
+  font-family: Baskervile-Italic;
+  src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+}
+@font-face {
+  font-family: Baskervile-Regular;
+  src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+}
+
+.containerabout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 500px;
+  background-color: honeydew;
+}
+.containerabout .leftpara1 {
+  height: 380px;
+  font-size: 20px;
+  font-family: Baskerville-Regular;
+  margin-top: 10px;
+  width: 900px;
+}
+.containerabout .leftpara1 .titleofpara1 {
+  font-size: 30px;
+  color: brown;
+}
+@font-face {
+  font-family: Baskerville-Italic;
+  src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+}
+@font-face {
+  font-family: Baskerville-Regular;
+  src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+}
+.containerabout .rightimage1 .Owner {
+  background-image: url(../images/Owner.jpg);
+  width: 350px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.containerabout2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 500px;
+  background-color: honeydew;
+}
+.containerabout2 .leftpara2 {
+  height: 380px;
+  font-size: 20px;
+  font-family: Baskerville-Regular;
+  margin-top: 10px;
+  width: 900px;
+}
+.containerabout2 .leftpara2 .titleofpara2 {
+  font-size: 30px;
+  color: brown;
+}
+@font-face {
+  font-family: Baskerville-Italic;
+  src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+}
+@font-face {
+  font-family: Baskerville-Regular;
+  src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+}
+.containerabout2 .rightimage2 .Restaurant {
+  background-image: url(../images/Restaurant.jpg);
+  width: 350px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.ourpromise {
+  background-color: brown;
+  height: 500px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.ourpromise .ourpromisetitle {
+  font-size: 50px;
+  font-family: Baskervile-Italic;
+  color: honeydew;
+}
+@font-face {
+  font-family: Baskervile-Italic;
+  src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+}
+.ourpromise .promisepara {
+  font-size: 30px;
+  margin-top: 20px;
+  width: 900px;
+  text-align: center;
+  font-family: Baskervile-Regular;
+  color: honeydew;
+}
+@font-face {
+  font-family: Baskerville-Italic;
+  src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+}
+
+.menuimagetop .BreakfastNook {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(90, 90, 90, 0.5)), to(rgba(90, 90, 90, 0.5))), url(../images/BreakfastNook.jpg);
+  background-image: linear-gradient(to right, rgba(90, 90, 90, 0.5), rgba(90, 90, 90, 0.5)), url(../images/BreakfastNook.jpg);
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menuimagetop .BreakfastNook .callout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.menuimagetop .BreakfastNook .callout .quote {
+  margin-top: 200px;
+  font-size: 70px;
+  font-family: Baskervile-Regular;
+  color: honeydew;
+}
+.menuimagetop .BreakfastNook .callout .quote .italics2 {
+  font-family: Baskervile-Italic;
+  font-size: 70px;
+}
+@font-face {
+  font-family: Baskervile-Italic;
+  src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+}
+@font-face {
+  font-family: Baskervile-Regular;
+  src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+}
+
+.containermenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 500px;
+  background-color: honeydew;
+}
+.containermenu .leftpara3 {
+  height: 380px;
+}
+.containermenu .leftpara3 .titleofpara3 {
+  font-size: 30px;
+  color: brown;
+}
+@font-face {
+  font-family: Baskerville-Italic;
+  src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+}
+.containermenu .leftpara3 .leftparaedit {
+  font-size: 20px;
+  font-family: Baskerville-Regular;
+  margin-top: 50px;
+  width: 900px;
+}
+@font-face {
+  font-family: Baskerville-Regular;
+  src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+}
+.containermenu .rightimage3 .Pancakes {
+  background-image: url(../images/Pancakes.jpg);
+  width: 350px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.containermenu1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 500px;
+  background-color: honeydew;
+}
+.containermenu1 .leftpara3 {
+  height: 380px;
+}
+.containermenu1 .leftpara3 .titleofpara3 {
+  font-size: 30px;
+  color: brown;
+}
+@font-face {
+  font-family: Baskerville-Italic;
+  src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+}
+.containermenu1 .leftpara3 .leftparaedit {
+  font-size: 20px;
+  font-family: Baskerville-Regular;
+  margin-top: 50px;
+  width: 900px;
+}
+@font-face {
+  font-family: Baskerville-Regular;
+  src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+}
+.containermenu1 .rightimage3 .Waffles {
+  background-image: url(../images/Waffles.jpg);
+  width: 350px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.containermenu2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 500px;
+  background-color: honeydew;
+}
+.containermenu2 .leftpara3 {
+  height: 380px;
+}
+.containermenu2 .leftpara3 .titleofpara3 {
+  font-size: 30px;
+  color: brown;
+}
+@font-face {
+  font-family: Baskerville-Italic;
+  src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+}
+.containermenu2 .leftpara3 .leftparaedit {
+  font-size: 20px;
+  font-family: Baskerville-Regular;
+  margin-top: 50px;
+  width: 900px;
+}
+@font-face {
+  font-family: Baskerville-Regular;
+  src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+}
+.containermenu2 .rightimage3 .EggSandwich {
+  background-image: url(../images/EggSandwich.jpg);
+  width: 350px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.containercontact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 500px;
+  background-color: honeydew;
+}
+.containercontact .leftpara4 {
+  height: 380px;
+}
+.containercontact .leftpara4 .titleofpara4 {
+  font-size: 80px;
+  color: brown;
+}
+@font-face {
+  font-family: Baskerville-Italic;
+  src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+}
+.containercontact .leftpara4 .leftparaedit {
+  font-size: 40px;
+  font-family: Baskerville-Regular;
+  margin-top: 50px;
+  width: 1000px;
+}
+@font-face {
+  font-family: Baskerville-Regular;
+  src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+}
+.containercontact .rightimage4 .Phone {
+  background-image: url(../images/Phone.jpg);
+  width: 350px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.containercontact1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 500px;
+  background-color: honeydew;
+}
+.containercontact1 .leftpara5 {
+  height: 380px;
+}
+.containercontact1 .leftpara5 .titleofpara5 {
+  font-size: 80px;
+  color: brown;
+}
+@font-face {
+  font-family: Baskerville-Italic;
+  src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+}
+.containercontact1 .leftpara5 .leftparaedit {
+  font-size: 40px;
+  font-family: Baskerville-Regular;
+  margin-top: 50px;
+  width: 900px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+@font-face {
+  font-family: Baskerville-Regular;
+  src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+}
+.containercontact1 .rightimage5 .Email {
+  background-image: url(../images/Email.jpg);
+  width: 350px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

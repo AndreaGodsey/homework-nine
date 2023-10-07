@@ -1,0 +1,42 @@
+.containercontact1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+    background-color: honeydew;
+    .leftpara5{
+        height: 380px;
+        .titleofpara5{
+            font-size: 80px;
+            color: brown;
+            @font-face {
+                font-family: Baskerville-Italic;
+                src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+                
+            }
+        }
+        .leftparaedit{
+            font-size: 40px;
+            font-family: Baskerville-Regular;
+            margin-top: 50px;
+            width: 900px;
+            flex-direction: column;
+        }
+
+        @font-face {
+            font-family: Baskerville-Regular;
+            src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+        }
+    }
+
+    .rightimage5{
+        .Email{
+            background-image: url(../images/Email.jpg);
+            width: 350px;
+            height: 450px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.containercontact{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
+    background-color: honeydew;
+    .leftpara4{
+        height: 380px;
+        .titleofpara4{
+            font-size: 80px;
+            color: brown;
+            @font-face {
+                font-family: Baskerville-Italic;
+                src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+                
+            }
+        }
+        .leftparaedit{
+            font-size: 40px;
+            font-family: Baskerville-Regular;
+            margin-top: 50px;
+            width: 1000px;
+        }
+
+        @font-face {
+            font-family: Baskerville-Regular;
+            src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+        }
+    }
+
+    .rightimage4{
+        .Phone{
+            background-image: url(../images/Phone.jpg);
+            width: 350px;
+            height: 450px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+}

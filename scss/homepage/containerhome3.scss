@@ -1,0 +1,85 @@
+.containerhome3{
+   background-color: brown;
+   height: 500px;
+
+    .titleofclient{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        font-size: 30px;
+        color: honeydew;
+    }
+
+    .nameone{
+        color: honeydew;
+        width: 200px;
+        margin-left: 20px;
+        font-size: 25px;
+        font-family: Baskervile-Regular;
+        @font-face {
+            font-family: Baskervile-Regular;
+            src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+        }
+
+        .para1{
+            color: black;
+            width: 1400px;
+            margin-top: 10px;
+            font-size: 20px;
+            font-family: Baskervile-Italic;
+            @font-face {
+                font-family: Baskervile-Italic;
+                src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+            }
+        }
+    
+    }
+    .nametwo{
+        color: honeydew;
+        width: 300px;
+        margin-left: 20px;
+        font-size: 25px;
+        margin-top: 100px;
+        font-family: Baskervile-Regular;
+        @font-face {
+            font-family: Baskervile-Regular;
+            src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+        }
+        .para2{
+            color: black;
+            width: 1400px;
+            margin-top: 10px;
+            font-size: 20px;
+            font-family: Baskervile-Italic;
+            @font-face {
+                font-family: Baskervile-Italic;
+                src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+            }
+        }
+        }
+
+    .namethree{
+        color: honeydew;
+        width: 200px;
+        margin-top: 80px;
+        font-size: 25px;
+        margin-left: 20px;
+        font-family: Baskervile-Regular;
+        @font-face {
+            font-family: Baskervile-Regular;
+            src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+        }
+
+        .para3{
+            color: black;
+            width: 1400px;
+            font-size: 20px;
+            margin-top: 10px;
+            font-family: Baskervile-Italic;
+            @font-face {
+                font-family: Baskervile-Italic;
+                src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+            }
+        }
+    }
+}

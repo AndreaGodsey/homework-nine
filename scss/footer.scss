@@ -1,0 +1,30 @@
+.footer{
+    height: 50px;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .copyrighttitle{
+        font-size: 25px;
+        color: honeydew;
+        font-family: Baskervile-Regular;
+
+        @font-face {
+            font-family: Baskervile-Regular;
+            src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+        }
+    }
+
+    .copyright{
+        font-size: 25px;
+        color: honeydew;
+        font-family:Baskervile-Regular;
+
+        @font-face {
+            font-family: Baskervile-Regular;
+            src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+        }
+    }
+}

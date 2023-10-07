@@ -1,0 +1,41 @@
+.containermenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+    background-color: honeydew;
+    .leftpara3{
+        height: 380px;
+        .titleofpara3{
+            font-size: 30px;
+            color: brown;
+            @font-face {
+                font-family: Baskerville-Italic;
+                src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+                
+            }
+        }
+        .leftparaedit{
+            font-size: 20px;
+            font-family: Baskerville-Regular;
+            margin-top: 50px;
+            width: 900px;
+        }
+
+        @font-face {
+            font-family: Baskerville-Regular;
+            src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+        }
+    }
+
+    .rightimage3{
+        .Pancakes{
+            background-image: url(../images/Pancakes.jpg);
+            width: 350px;
+            height: 450px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+}

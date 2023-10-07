@@ -1,0 +1,24 @@
+.titleofcompany{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-family: Baskerville-Regular;
+    background-color: honeydew;
+    height: 100px;
+
+    @font-face {
+        font-family: Baskerville-Regular;
+        src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+    }
+
+    .italics{
+        font-family: Baskerville-Italic;
+        color: brown;
+
+       @font-face {
+        font-family: Baskerville-Italic;
+        src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+       }
+    }
+}

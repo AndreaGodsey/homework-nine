@@ -1,0 +1,29 @@
+nav{
+    height: 50px;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    @font-face {
+        font-family: Baskerville-Regular;
+        src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+    }
+
+    .companyname{
+        font-size: 20px;
+        color: honeydew;
+        font-family: Baskerville-Italic;
+
+        @font-face {
+            font-family: Baskerville-Italic;
+            src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+        }
+    }
+
+    a{
+        color: honeydew;
+        text-decoration: none;
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,39 @@
+.containerhome{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+    background-color: honeydew;
+    .leftpara{
+        height: 380px;
+        .titleofpara{
+            font-size: 30px;
+            color: brown;
+            @font-face {
+                font-family: Baskerville-Italic;
+                src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+                
+            }
+        }
+        font-size: 20px;
+        font-family: Baskerville-Regular;
+        margin-top: 10px;
+        width: 900px;
+
+        @font-face {
+            font-family: Baskerville-Regular;
+            src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+        }
+    }
+
+    .rightimage{
+        .Breakfast{
+            background-image: url(../images/Breakfast.jpg);
+            width: 350px;
+            height: 450px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+}
